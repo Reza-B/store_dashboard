@@ -2,11 +2,11 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { CssBaseline } from "@mui/material";
-import Dashboard from "./Dashboard";
+import App from "./app";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <CssBaseline />
-    <Dashboard />
+    <App />
   </StrictMode>
 );
